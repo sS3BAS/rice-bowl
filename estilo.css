@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.car {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+}
+.seccion1 {
+  width: 100%;
+  height: 120vh;
+  background-color: #d3ecf7;
+}
+.superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding-left: 250px;
+}
+.menu {
+  font-family: "Bebas Neue";
+  list-style: none;
+  display: flex;
+  padding-right: 280px;
+  gap: 40px;
+}
+.menu li {
+  cursor: pointer;
+}
+.Centro1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 300px;
+}
+.columna-logo {
+  display: flex;
+  flex-direction: column;
+}
+.imagenRiceBowl {
+  position: relative;
+  height: 280px;
+}
+.textoc1 {
+  font-family: "Nunito";
+  color: gray;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+.boton-ROJO {
+  margin-top: 30px;
+  height: 35px;
+  width: 200px;
+}
+.boton-ROJO a {
+  display: inline-block;
+  background: #a82527;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: "Bebas Neue";
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.imagen1 {
+  padding-right: 300px;
+}
+.pie1 {
+  padding-top: 100px;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boton {
+  margin-top: 100px;
+  position: absolute;
+  font-size: 20px;
+  background-color: #5e5fae;
+  color: white;
+  display: flex;
+  text-decoration: none;
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.seccion2 {
+  background-color: #ffffff;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 250px;
+}
+.columnacentro2 {
+  gap: 5px;
+  padding-right: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.fotohien {
+  width: 400px;
+}
+.about {
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+}
+.textoc2 {
+  font-family: "Nunito";
+  color: gray;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+.seccion3 {
+  background-color: #5e5fb2;
+  display: relative;
+}
+.parteSup {
+ 
+  gap: 20px;
+  height: 200px;
+  display: flex;            
+  flex-direction: column;    
+  align-items: center;       
+
+}
+.our{
+   color: white;
+  padding-top: 40px;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+}
+.parrad{
+   color: rgba(255, 255, 255, 0.718);
+  width: 500px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Nunito";
+}
+.parteInf{
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+}
+.img-col{
+  width: 300px;
+}
+.columna3c{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.yoru{
+  font-size: 18px;
+  font-family: "Bebas Neue";
+}
+.cursiva{
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 35px;
+}
+.buy{
+  cursor: pointer;
+  font-family: "Nunito";
+  text-decoration: underline;
+}
+.seccion4 {
+  background-color: #ffffff;
+}
+.seccion5 {
+  width: 100%;
+  height: 50vh;
+  background-color: #3c3eaf;
+}
+.seccion6 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 50vh;
+}
+.seccion7 {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 10vh;
+}
