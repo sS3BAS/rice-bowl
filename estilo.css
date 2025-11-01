@@ -186,20 +186,223 @@
   text-decoration: underline;
 }
 .seccion4 {
-  background-color: #ffffff;
+  position: relative;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 200px;
+  gap: 30px;
 }
+.Parrafote{
+  font-family: "Nunito";
+  font-size: 20px;
+}
+.img4{
+
+  padding: 0px;
+}
+
+.centro4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    text-align: right;
+}
+
+.centro4 > div > p {
+  /* Esto ya lo tenías (para juntarlos verticalmente): */
+  margin-top: 0;
+  margin-bottom: 0;
+
+  /* Añade estas líneas para sobreescribir la regla .text p: */
+  padding: 0;         /* Quita el padding de 50px */
+  height: auto;       /* Resetea la altura de 200px */
+  width: auto;        /* Resetea el ancho de 500px */
+  text-align: left;   /* Alinea el texto a la izquierda, que se ve mejor */
+}
+.text{
+  position: relative;
+}
+.autor{
+    font-size: 18px;
+    font-family: "Nunito";
+}
+.arroba{
+  font-size: 18px;
+  font-family: "Nunito";
+  color: rgb(25, 220, 177);
+}
+.centro4 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.text p{
+  position: relative;
+  padding: 50px 20px;
+  height: 200px;
+  width: 500px;
+  text-align: center;
+}
+
+.foto{
+
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.usuarios{
+
+  display:flexbox ;
+  flex-direction: column;
+  gap: 30px;
+}
+.our2{
+  font-size: 60px;
+  font-family: "Nunito";
+}
+.claswww{
+  font-family: "Nunito";
+}
+
 .seccion5 {
   width: 100%;
-  height: 50vh;
-  background-color: #3c3eaf;
+
+  padding: 80px 10%; 
+  background-color: #3c3eaf; 
+  color: white;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  flex-wrap: wrap; 
+  gap: 30px;
 }
+
+
+.dots {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #f4f4f4; 
+}
+
+.dots span:nth-child(2) {
+  background-color: #a82527;
+}
+.dots span:nth-child(3) {
+  background-color: #a82527;
+}
+
+.contenido-s5 h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+.contenido-s5 p {
+  font-size: 1.1rem;
+  color: #d3ecf7; 
+}
+
+
+.email-form {
+  display: flex;
+  background-color: white;
+  border-radius: 8px; 
+  padding: 8px;
+  width: 100%;
+  max-width: 450px;
+  justify-content: space-between;
+  align-items: center;
+}
+.email-form input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+  width: 65%; 
+}
+.email-form input::placeholder {
+  color: #999;
+}
+.email-form button {
+  background-color: #5e5fb2; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+
 .seccion6 {
   background-color: #ffffff;
   width: 100%;
-  height: 50vh;
+  padding: 100px 10%; 
+  display: flex;
+  justify-content: space-around;
+  font-family: "Nunito", sans-serif;
+  flex-wrap: wrap; 
+  gap: 40px;
 }
+.columna-s6 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  min-width: 150px; 
+}
+.columna-s6 p {
+  color: #555;
+  font-size: 0.9rem;
+}
+.columna-s6 a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+.columna-s6 a:hover {
+  text-decoration: underline;
+}
+
+.columna-s6:not(:first-child) a:first-child {
+  font-weight: bold;
+  color: #222; 
+  font-size: 1rem;
+}
+
 .seccion7 {
-  background-color: #f4f4f4;
+  background-color: #f4f4f4; 
   width: 100%;
-  height: 10vh;
+  padding: 25px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  color: #777;
+  font-size: 0.9rem;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+.copyright-s7 {
+  text-align: center;
+}
+.links-s7 {
+  display: flex;
+  gap: 25px;
+}
+.links-s7 a {
+  text-decoration: none;
+  color: #777;
+}
+.links-s7 a:hover {
+  text-decoration: underline;
 }
